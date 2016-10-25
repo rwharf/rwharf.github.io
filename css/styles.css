@@ -20,10 +20,19 @@
 }
 /* Textures or Patterns*/
 .pattern-1{
-    background: url("../img/flag.jpg");
+    background: url("../img/pink_rice/pink_rice.png");
 }
 .pattern-2{
-    background: url("../img/feathers.jpg");
+    background: url("../img/logo_x_pattern/logo_x_pattern.png");
+}
+.pattern-3{
+    background: url("../img/seigaiha/seigaiha.png");
+}
+.pattern-4{
+    background: url("../img/polkadots.jpg");
+}
+.pattern-5{
+    background: url("../img/Stripes.jpg");
 }
 
 
