@@ -4,16 +4,19 @@
 
 /* Color Palette */
 .color-1{
-    background: pink;
+    background: #E9CF7B;
 }
 .color-2{
-    background: white;
+    background: #F2C187;
 }
 .color-3{
-    background: black;
+    background: #F6B5A0;
 }
 .color-4{
-    background: hotpink;
+    background: #F9B0CB;
+}
+.color-5{
+    background: #F7AFD0;
 }
 /* Textures or Patterns*/
 .pattern-1{
