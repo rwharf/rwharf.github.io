@@ -1,0 +1,53 @@
+/***************/
+/* YOUR STYLES */
+/***************/
+
+/* Color Palette */
+.color-1{
+    background: pink;
+}
+.color-2{
+    background: white;
+}
+.color-3{
+    background: black;
+}
+.color-4{
+    background: hotpink;
+}
+/* Textures or Patterns*/
+.pattern-1{
+    background: url("../img/flag.jpg");
+}
+.pattern-2{
+    background: url("../img/feathers.jpg");
+}
+
+
+/* Imagery */
+
+
+/* Icons */
+
+
+/* Navigation */
+a:link,
+a:visited{
+    color: lightpink;
+    text-transform: uppercase;
+}
+a:hover{
+    background: hotpink;
+    margin-left: 20px;
+}
+a:active{
+    color: floralwhite;
+    background: black;
+}
+
+/* Typography */
+p{
+    font-family: 'Dosis', sans-serif;
+}
+
+
