@@ -1,27 +1,44 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Rach Stuff</title>
-    
-    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/5.0.0/normalize.css">
-    <link rel="stylesheet" href="/css/styles.css" />
-
+	<meta charset="UTF-8" />
+	<title>Homepage</title>
+	<link rel="stylesheet" href="css/style.css">	
 </head>
 <body>
-   
-   <h1>Contact</h1>
-   
-    <ul>
-      <li><a href="index.html">Homepage</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="portfolio.html">Portfolio</a></li>
-      <li><a href="contact.html">contact</a></li>
-  </ul>
-   
-   <p>rwharf@eagles.ewu.edu </p>
-   
-    
+	<div id="header">
+		<img src="img/kerry-park.jpg" width=80% height="300" />
+		<h1>Rachelle Wharf</h1>
+			<ul>
+			<li>
+				<a href="index.html">Homepage</a>
+			</li>
+			<li>
+				<a href="about.html">About</a>
+			</li>
+			<li>
+				<a href="portfolio.html">Portfolio</a>
+			</li>
+			<li>
+				<a href="contact.html">Contact</a>
+			</li>
+			</ul>
+	</div>
+	<div id="contact-form">
+		<form action="">
+			<label class="form-label" for="name">Name:</label>
+			<input class="form-input" type="input" name="name" />
+			<label class="form-label" for="email">Email:</label>
+			<input class="form-input" type="input" name="email" />
+			<label class="form-label" for="message">Message:</label>
+	 		<textarea name="message"></textarea>
+			<input class="submit-button" type="submit" value="Thanks"/>
+		</form>
+	</div>
+
+
+
+
 </body>
-</html>        
+</html>
+
