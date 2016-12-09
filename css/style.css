@@ -1,0 +1,117 @@
+body {
+	background-image: url("../img/marble.png");
+	background-size: 100% 100%;
+}
+
+#header {
+	width: 80%;
+	text-align: center;
+	margin: auto;
+}
+
+h1 {
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+	font-style: italic;
+	text-shadow: 2px 2px #A9A9A9;
+	padding: 10px 0 10px 0;
+	font-size: 1.5em;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	display: inline;
+}
+
+a {
+	text-decoration: none;
+	color: red;
+	font-size: 1.25em;
+	font-weight: 700;
+	padding: 0 2% 0 2%;
+}
+a:visited{
+    text-transform: uppercase;
+}
+a:hover{
+    color: black;
+    margin-left: 20px;
+	text-shadow: 2px 2px #A9A9A9;
+}
+a:active{
+    color: floralwhite;
+    background: black;
+}
+
+#bio {
+	width: 60%;
+	margin: auto;
+	font-size: 1.5em;
+}
+
+#resume {
+	width: 60%;
+	margin: auto;
+	font-size: 1.5em;
+}
+
+#resume-left {
+	width: 50%;
+	float: left;
+}
+#resume-right {
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+#resume-main {
+	width: 100%;
+	float: left;
+	padding: 5px 0 5px 0;
+}
+dt {
+	font-style: italics;
+}
+
+#contact-form {
+	width: 30%;
+	margin-top: 3%;
+	margin: auto;
+}
+
+.form-label {
+	width: 32%;
+	float: left;
+	text-align: right;
+	margin: 10px 10px 10px 0;
+}
+.form-input {
+	width: 46%;
+	float: left;
+	margin: 10px 10px 10px 0;
+}
+textarea {
+	width: 46%;
+	float: left;
+}
+.submit-button {
+	width: 20%;
+	margin: 5% 10% 0 10%;
+}
+#writings {
+	width: 75%;
+	margin: auto;
+}
+.article {
+	font-size: 1.1em;
+	width: 100%;
+	padding: 2px 0 2px 0;
+	text-indent: 20px;
+}
+
